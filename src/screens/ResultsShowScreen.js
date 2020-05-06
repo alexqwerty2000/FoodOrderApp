@@ -21,8 +21,8 @@ const ResultsShowScreen = ({navigation}) => {
     }
 
     return (
-        <View>
-            <Text>{result.name}</Text>
+        <View style={{alignSelf:'center'}}>
+            <Text style = {styles.name}>{result.name}</Text>
             <FlatList
                 data = {result.photos}
                 keyExtractor = {(photo) => photo}
@@ -30,7 +30,6 @@ const ResultsShowScreen = ({navigation}) => {
                     return <Image style = {styles.imageStyle} source = {{uri: item}}/>
                 }}
             />
-            
         </View>
     )
 }
@@ -38,7 +37,14 @@ const ResultsShowScreen = ({navigation}) => {
 const styles = StyleSheet.create({
     imageStyle:{
         width: 250,
-        height: 180
+        height: 180,
+        marginBottom: 5
+    },
+    name:{
+        fontWeight: 'bold',
+        alignSelf: 'center',
+        marginVertical: 10
+
     }
 })
 

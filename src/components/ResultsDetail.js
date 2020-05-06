@@ -9,7 +9,6 @@ const ResultsDetail = ( {viewResult} ) => {
             <Text>{viewResult.rating} Stars, {viewResult.review_count} Reviews</Text>
         </View>
     )
-    
 }
 
 const styles = StyleSheet.create({
