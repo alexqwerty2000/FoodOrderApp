@@ -11,6 +11,7 @@ web-build/
 web-report/
 .gitignore
 .watchmanconfig
+package-lock.json
 
 # macOS
 .DS_Store
