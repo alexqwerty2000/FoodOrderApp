@@ -1,7 +1,7 @@
 # FoodOrderApp
 Food Order App with react-native
 
-For view results do next commands:
+For view results do next commands on IDE terminal:
 
 git clone https://github.com/alexqwerty2000/FoodOrderApp.git
 
