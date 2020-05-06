@@ -13,4 +13,4 @@ npm start
 
 Download Expo from AppStore or PlayMarket on your mobile device
 
-Turn On your camera and scan QR-code
+Turn On camera on mobile device and scan QR-code
