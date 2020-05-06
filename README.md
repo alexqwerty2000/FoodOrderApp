@@ -1,5 +1,5 @@
-# FoodOrderApp
-Food Order App with react-native
+# Food Searching App
+Food Searching App with react-native
 
 For view results do next commands on IDE terminal:
 
